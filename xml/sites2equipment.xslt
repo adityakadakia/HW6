@@ -6,7 +6,7 @@
 			<head>
 			</head>
 			<body>
-				<ul>
+				<ol>
 					<xsl:for-each select="siteDatabase/site/tower/equipment">
 						<li>
 							Equipment:
@@ -21,7 +21,7 @@
 							</li>
 						</ul>
 					</xsl:for-each>
-				</ul>
+				</ol>
 			</body>
 		</html>
 	</xsl:template>
